@@ -129,6 +129,9 @@ aside#sidebar p.repo-owner a {
 }
 
 a.button {
+  position: relative;
+  top: 22px;
+  left: 0px;
   width: 134px;
   height: 58px;
   line-height: 1.2;
@@ -148,7 +151,7 @@ header a.button {
   top: 0;
   background: transparent url(../images/github-button.png) 0 0 no-repeat;
 }
-aside a.button {
+a.button.dl {
   width: 138px;
   padding-left: 64px;
   display: block;
