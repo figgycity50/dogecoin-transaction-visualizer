@@ -115,8 +115,8 @@ function drawChart(dara, name) {
     var data = google.visualization.arrayToDataTable(dara);
 
     var options = {
-        width: 800,
-        height: 600,
+        width: 640,
+        height: 480,
         title: name
     };
 
